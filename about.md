@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-B
+Bạn đang xem gì đấy? Tôi là Gàcode thôi, nhé nhé ...
