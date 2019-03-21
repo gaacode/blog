@@ -14,16 +14,16 @@ Scope là một khái niệm cơ bản và quan trọng trong ngôn ngữ Ruby. 
 ## Local variable trong Ruby
 Scope Gates & Flat scope chủ yếu xoay quanh local variable (biến cục bộ). Vì vậy, ta hãy tìm hiểu sơ qua về nó trước đã. 
 
- Biến cục bộ là biến được liên kết với một phạm vi cụ thể. Chừng nào bạn còn trong phạm vi đó, thì bạn vẫn sẽ có quyền truy cập vào chúng. Khi phạm vi thay đổi, tức là bạn không trong cùng phạm vi khai báo local variable nữa - bạn sẽ không thể truy cập chúng. 
+Biến cục bộ là biến được liên kết với một phạm vi cụ thể. Chừng nào bạn còn trong phạm vi đó, thì bạn vẫn sẽ có quyền truy cập vào chúng. Khi phạm vi thay đổi, tức là bạn không trong cùng phạm vi khai báo local variable nữa - bạn sẽ không thể truy cập chúng. 
  
- Vậy làm thế nào để biết một phạm vi đã thay đổi? Bạn sẽ có câu trả lời trong phần sau. Đọc tiếp nào ...
+Vậy làm thế nào để biết một phạm vi đã thay đổi? Bạn sẽ có câu trả lời trong phần sau. Đọc tiếp nào ...
  
 ## Scope Gates (dịch tạm là Cổng phạm vi)
- Có một số thứ hay ho xảy ra khi bạn:
+Có một số thứ hay ho xảy ra khi bạn:
  
- * Định nghĩa một Class (**`class PeekABoo`**)
- * Định nghĩa một Method (**`def fight`**)
- * Định nghĩa một Module (**`module SuperCoder`**)
+* Định nghĩa một Class (**`class PeekABoo`**)
+* Định nghĩa một Method (**`def fight`**)
+* Định nghĩa một Module (**`module SuperCoder`**)
 
 Mỗi lần bạn làm một trong 3 điều trên, bạn đang tạo ra phạm vi mới. Giống như Ruby tạo ra một cánh cổng và ném bạn sang một vùng đất hoàn toàn mới mà ở đó bạn không thể liên lạc hay truy cập vào các biến ở vùng đất cũ nữa. Vì vậy nên chúng ta gọi các định nghĩa **module**, **method**, **class** là những cái cổng phạm vi. 
 
