@@ -177,8 +177,8 @@ Write the code as a pleasure.
 
 ## Tài liệu tham khảo
 
-http://rubyblog.pro/2017/02/scope-gates-and-flat-scope-ruby
+<http://rubyblog.pro/2017/02/scope-gates-and-flat-scope-ruby>
 
-https://www.sitepoint.com/understanding-scope-in-ruby/
+<https://www.sitepoint.com/understanding-scope-in-ruby/>
 
 
