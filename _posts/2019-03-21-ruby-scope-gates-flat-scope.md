@@ -18,7 +18,7 @@ Scope Gates & Flat scope chủ yếu xoay quanh local variable (biến cục b�
  
  Vậy làm thế nào để biết một phạm vi đã thay đổi? Bạn sẽ có câu trả lời trong phần sau. Đọc tiếp nào ...
  
- ## Scope Gates (dịch tạm là Cổng phạm vi)
+## Scope Gates (dịch tạm là Cổng phạm vi)
  Có một số thứ hay ho xảy ra khi bạn:
  
  * Định nghĩa một Class (**`class PeekABoo`**)
