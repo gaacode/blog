@@ -35,4 +35,4 @@ Bài viết này đến đây là hết, cảm ơn mọi người đã theo dõi
 
 ## Tài liệu tham khảo
 
-https://www.w3schools.com/js/js_ajax_intro.asp
+<https://www.w3schools.com/js/js_ajax_intro.asp>
