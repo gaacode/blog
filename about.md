@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-Bạn đang xem gì đấy? Tôi là Gàcode thôi, nhé nhé ...
+Xin giới thiệu, lại là mình: Gàcode đây. 
+À mà... Bạn vào trang này với mục đích gì đấy? Đi ra ngoài kia ngay :v.
