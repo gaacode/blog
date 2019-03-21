@@ -165,7 +165,7 @@ Connector.new.connect # config.yml
 
 ## Tổng kết
 
-Khi chúng ta sử dụng giải pháp phá vỡ scope, chúng ta đang làm sai đi tính chất đóng gói (encapsulation) của OOP. Nhưng thật tuyệt khi ta có thể làm điều đó khi ta muốn như vậy. 
+Khi chúng ta sử dụng giải pháp phá vỡ scope, chúng ta đang làm sai đi tính chất đóng gói (encapsulation) của OOP. Nhưng thật tuyệt bởi vì ta có thể làm điều đó khi ta muốn như vậy. 
 
 Thông thường chúng ta muốn mã của mình biết càng ít càng tốt về class và các module khác, đó là cách dùng ta có thể tránh các tác dụng phụ và ít phụ thuộc hơn. 
 
