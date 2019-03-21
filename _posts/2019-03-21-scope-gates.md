@@ -45,4 +45,41 @@ some_class.some_method
 
 Bạn sẽ thấy `[:v1]` và `[:v2]` được in ra trong console. Điều gì đã xảy ra với biến **v1** khi chương trình vào hàm some_method?. **some_method** đã tạo ra cổng phạm vi, và bên trong đó là phạm vi của instance method khác hoàn toàn so với phạm vi của class.  Vì vậy, ở đây ta chỉ có thể thấy và truy cập được biến v2. 
 
-Còn biến v0 thì sao? Nó không xuất hiện ở bất kỳ đâu cả. Chà, khi mà chúng ta định nghĩa class SomeClass thì chúng ta đã tạo ra một phạm vi khác, vậy nên ta sẽ không có quyền truy cập biến v0 nữa. Nếu muốn truy cập biến v0, ta chỉ có thể truy cập nó bên ngoài SomeClass, khi mà phạm vi của SomeClass kết thúc (sau từ khóa end kết thúc class SomeClass).
+Còn biến v0 thì sao? Nó không xuất hiện ở bất kỳ đâu cả. Chà, khi mà chúng ta định nghĩa class SomeClass thì chúng ta đã tạo ra một phạm vi khác, vậy nên ta sẽ không có quyền truy cập biến v0 nữa. Nếu muốn truy cập biến v0, ta chỉ có thể truy cập nó bên ngoài SomeClass, khi mà phạm vi của SomeClass kết thúc (sau từ khóa end kết thúc class SomeClass).  
+
+## Ý nghĩa của phạm vi
+
+Scopes giúp quy định các phạm vi truy cập của module, class và method. Nếu không có điều này, một method hay class có thể truy cập và thay đổi dữ liệu, trạng thái của hệ thống, điều này làm mất đi tính đóng gói (encapsulation) của OOP. 
+
+Tuy nhiên, trong những dự án lớn và phức tạp, đôi khi chúng ta sẽ cần phá vỡ phạm vi của class, method hoặc module. Chúng ta sẽ đi tìm hiểu cách phá vỡ scope và scope gates. 
+
+## Break scope (hack phạm vi)
+Khi nào thì chúng ta cần hack phạm vi?. Đó là khi bạn gặp phải những trường hợp đặc biệt như thế này:
+
+```
+conf_file = "myconf.yml"
+
+class DbConnection
+  # ...
+end
+```
+
+`conf_file` được khai báo bên ngoài phạm vi của `class DbConnection`. Hãy giả sử rằng vì một số lý do, chúng ta không thể thay đổi giao diện, cấu trúc của DbConnection. Nếu chúng ta không thể tạo một method mới để nhận biến `conf_file`, làm thế nào để có thể truyền nó vào trong class DbConnection?. Tin vui là chúng ta có thể sử dụng blocks, procs hoặc lambdas để làm như vậy.    
+
+Có thể bạn chưa biết, tôi thì cũng mới biết đây thôi. Blocks, procs và lambdas có quyền truy cập vào tất cả các biến trong phạm vi chúng đã được định nghĩa, ví dụ: 
+
+```
+x = "test"
+3.times { puts x }
+# test
+# test
+# test
+```
+
+Biến x có thể truy cập bên trong 1 block, bởi vì block có quyền truy cập đến phạm vi nơi nó được định nghĩa. Procs, lambdas cũng vậy:
+
+```
+x = 'test'
+l = -> { puts x }
+l.call # => test
+```
