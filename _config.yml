@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "Vương Phan"
+  name     : "Gàcode"
 
 plugins:
   - jekyll-sitemap
