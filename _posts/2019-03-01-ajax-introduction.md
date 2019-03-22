@@ -6,6 +6,8 @@ comments: true
 keywords: "JavaScript, Ajax"
 ---
 
+![](https://embed-ssl.wistia.com/deliveries/64a1dda46d75f2ae598706c2bf91856ad30dc9e0.jpg)
+
 ## Giới thiệu
 
 AJAX là viết tắt của Asynchronous Javascript and XML. Đây là một kỹ thuật trong Javascript, được dùng để cập nhật lại dữ liệu, giao diện một phần trên trang web mà không cần tải lại toàn bộ trang.   
