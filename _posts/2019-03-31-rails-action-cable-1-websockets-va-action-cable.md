@@ -14,11 +14,12 @@ Vì vậy, các developers có thể dùng WebSocket để tạo ra các ứng d
 
 ## Các phương thức truyền tin
 
-**Bán song công** là khi một thiết bị chỉ có thể thu hoặc phát tại 1 thời điểm nhất định (không thể vừa thu vừa phát). 
-Ví dụ, trong giao thức HTTP giữa server và client. Server chỉ đóng vai trò nhận dữ liệu hoặc gửi dữ liệu trong một thời điểm nhất định, client cũng thế.
+**Bán song công** là khi một thiết bị chỉ có thể thu hoặc phát tại 1 thời điểm nhất định (không thể vừa thu vừa phát). Ví dụ, trong giao thức HTTP giữa client và server. Server chỉ đóng vai trò nhận dữ liệu hoặc gửi dữ liệu trong một thời điểm nhất định, client cũng thế.
 
 ![](https://images.viblo.asia/fc4c1f08-75b7-4be6-9bd6-1cff16011521.png)
 
-Ngược lại với bán song công là **song công**, đó là khi một thiết bị có thể vừa thu, vừa phát trong cùng 1 thời điểm. WebSocket cho phép giao tiếp song công giữa client và server (sau khi gửi 1 request sử dụng header có tên là `Upgrade`)
+Ngược lại với bán song công là **song công**, đó là khi một thiết bị có thể vừa thu, vừa phát trong cùng 1 thời điểm. WebSocket cho phép giao tiếp song công giữa client và server (sau khi gửi 1 request từ client đến server sử dụng header có tên là `Upgrade`).
+
+Kết nối này cho phép client và server liên lạc đồng thời và liên tục với nhau.
 
 ![](https://images.viblo.asia/37f5a296-90b5-46b8-8449-669de8137c84.png)
