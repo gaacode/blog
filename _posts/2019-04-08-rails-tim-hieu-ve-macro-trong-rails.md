@@ -8,7 +8,7 @@ keywords: "rails, ruby, macro, association"
 
 ## Giới thiệu
 
-Trong Rails, chúng ta sử dụng các khai báo cấp class như ```has_many```, ```belongs to```, chúng được gọi là các **macros**. Ví dụ:
+Trong Rails, chúng ta sử dụng các khai báo cấp class như ```has_many```, ```belongs_to```, chúng được gọi là các **macros**. Ví dụ:
 
 ```
 class Movie < ActiveRecord::Base
