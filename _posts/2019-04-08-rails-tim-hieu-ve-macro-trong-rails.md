@@ -391,7 +391,7 @@ class Project < ActiveRecord::Base
 end
 ```
 
-Rails còn thực hiện nhiều xử lý khác trong ```has_many```, nhưng hy vọng điều này đã làm sáng tỏ cách khai báo cấp độ class trog Rails, đối khi gọi là macros.
+Rails còn thực hiện nhiều xử lý khác trong ```has_many```, nhưng hy vọng điều này đã làm sáng tỏ cách khai báo cấp độ class trong Rails, đôi khi gọi là macros.
 
 Hãy nhớ rằng: chẳng có gì bí ẩn hay đặc biệt ở đây, chúng chỉ là những đoạn code Ruby thông thường!
 
@@ -402,4 +402,5 @@ https://pragmaticstudio.com/tutorials/ruby-macros
 https://ruby-doc.org/core-2.2.0/Class.html
 
 Bài này dài quá, cảm ơn bạn đã chăm chỉ đọc đến đây! Chúc bạn code vui vẻ ^_^.
-#### Write the code as a pleasure. Happy coding!
+
+**Write the code as a pleasure. Happy coding!**
