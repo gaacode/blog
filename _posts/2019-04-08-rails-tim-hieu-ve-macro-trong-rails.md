@@ -41,7 +41,7 @@ Và tất nhiên, nó in ra tên con chó đã được in hoa "ROSCO".
 Chúng ta có thể gọi bất kỳ method nào trong class String, nhưng Ruby cũng cho phép chúng ta định nghĩa các methods trên một object cụ thể. Ví dụ, chúng ta sẽ định nghĩa một method ```hunt``` cho object ```dog1```.
 ```
 def dog1.hunt
-	puts "hunting ..."
+  puts "hunting ..."
 end
 
 dog1.hunt # => hunting ...
