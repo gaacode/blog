@@ -397,10 +397,10 @@ Hãy nhớ rằng: chẳng có gì bí ẩn hay đặc biệt ở đây, chúng 
 
 ## Tài liệu tham khảo
 
-https://pragmaticstudio.com/tutorials/ruby-macros
+[https://pragmaticstudio.com/tutorials/ruby-macros](https://pragmaticstudio.com/tutorials/ruby-macros)
 
-https://ruby-doc.org/core-2.2.0/Class.html
+[https://ruby-doc.org/core-2.2.0/Class.html](https://ruby-doc.org/core-2.2.0/Class.html)
 
-Bài này dài quá, cảm ơn bạn đã chăm chỉ đọc đến đây! Chúc bạn code vui vẻ ^_^.
+Bài này dài quá, cảm ơn bạn đã chăm chỉ đọc đến đây! Nếu có sai sót hay cần góp ý bổ sung, bạn hãy comment phía dưới giúp mình nhé. Cảm ơn rất nhiều và chúc bạn code vui vẻ ^_^.
 
 **Write the code as a pleasure. Happy coding!**
