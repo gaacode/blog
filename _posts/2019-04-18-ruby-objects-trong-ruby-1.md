@@ -53,4 +53,4 @@ Nếu bạn đọc phát hiện ra sai sót về kiến thức, hay chưa hiểu
 
 ## Tài liệu tham khảo
 
-https://theswissbay.ch/pdf/Gentoomen%20Library/Programming/Ruby/The%20Ruby%20Programming%20Language%20-%20Oreilly.pdf (trang 72, 73)
+shorturl.at/owLS3 (trang 72, 73)
