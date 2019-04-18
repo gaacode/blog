@@ -53,4 +53,4 @@ Nếu bạn đọc phát hiện ra sai sót về kiến thức, hay chưa hiểu
 
 ## Tài liệu tham khảo
 
-shorturl.at/owLS3 (trang 72, 73)
+[The Ruby Programming Language book](shorturl.at/owLS3) (trang 72, 73)
