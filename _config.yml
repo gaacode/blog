@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "Gà"
 title_right   : "code" # default: ""
-description   : "Chào bạn, Tôi là Gàcode đây. Tôi ở đây vì một lý do duy nhất đó là chém gió về Web development, Ruby on Rails và cuộc sống. Tôi thích học những kiến thức về IT, à... cả business và finance nữa, haha."
+description   : "Web development with Ruby on Rails, life."
 keywords      : "Web development, Ruby on Rails, life, code, blog"
 url           : https://gaacode.github.io/blog # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
