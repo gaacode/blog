@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Rails] form_with vs. form_tag vs. form_for"
+title: "[Rails] form_with, form_tag và form_for"
 description: "form_tag và form_for sẽ được sớm thay bằng form_with trong tương lai. Trong bài này chúng ta sẽ cùng tìm hiểu sự khác nhau giữa form_tag, form_for và form_with và một số code ví dụ."
 comments: true
 keywords: "rails, form_for, form_with, form_tag"
