@@ -82,7 +82,7 @@ Tạo ra:
   <input id="email" class="email" type="text" name="user[email]" />  </form>
 ```
 
-## Các thuộc tính id và class của form không được bao bọc nữa
+## Các thuộc tính id và class của form không được bọc nữa
 Xưa kia (với `form_for`),
 ```
 <%= form_for @user, html: { id: :custom_id, class: :custom_class } do |form| %>
@@ -94,6 +94,30 @@ Bây giờ (với `form_with`),
 <%= form_with model: @user, id: :custom_id, class: :custom_class do |form| %>
 <% end %>
 ```
+
+## Các form fields không phải tương ứng với các model attributes
+Tôi nghĩ đây là bổ sung tuyệt vời nhất giữ cho cú pháp được đồng nhất.
+
+Trường hợp bạn muốn thêm một check box vào form tạo Post của bạn, để cho phép tác giả của bài đăng thông báo với các độc giả của mình qua email.
+
+Check box này không thể map với một attribute trong model. Tuy nhiên, bạn vẫn có thể làm được điều đó bằng cách sử dụng FormBuilder với `form_with` ví dụ:
+```
+<%= form_with model: @post do |form| %>
+ <%= form.text_field :author %>
+ <%= form.check_box :notify_readers %>
+ <%= form.submit “Create” %>
+<% end %>
+
+<form action=”/posts” accept-charset=”UTF-8" data-remote=”true” method=”post”>
+ <input name=”utf8" type=”hidden” value=”✓”>
+ <input type=”hidden” name=”authenticity_token” value=”…”>
+ <input type=”text” name=”post[author]”>
+ <input name=”post[notify_readers]” type=”hidden” value=”0"><input type=”checkbox” value=”1" name=”post[notify_readers]”>
+ <input type=”submit” name=”commit” value=”Create” data-disable-with=”Create”>
+</form>
+```
+
+Giá trị của check box sẽ được scope trong post. Nếu bạn không muốn nó được scope, hãy sử dụng `check_box_tag` thay vì `form.check_box` như trong ví dụ trên.
 
 ## Các form mặc định là remote
 Thay đổi này thú vị nhất đối với tôi. Tất cả form được tạo bởi `form_with` sẽ được mặc định submit bởi một **XHR (Ajax)** request. Không cần chỉ định `remote: true` như bạn phải dùng trong `form_tag` và `form_for`.
@@ -119,5 +143,7 @@ Vậy nên, hãy đọc thêm [tài liệu này](https://api.rubyonrails.org/cla
 
 ## Tài liệu tham khảo
 [https://m.patrikonrails.com/rails-5-1s-form-with-vs-old-form-helpers-3a5f72a8c78a](https://m.patrikonrails.com/rails-5-1s-form-with-vs-old-form-helpers-3a5f72a8c78a)
+
+Cảm ơn bạn đã theo dõi bài viết, rất mong nhận được những thảo luận và đóng góp của bạn.
 
 **Write the code as a pleasure ^_^**
