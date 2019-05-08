@@ -103,17 +103,17 @@ Trường hợp bạn muốn thêm một check box vào form tạo Post của b�
 Check box này không thể map với một attribute trong model. Tuy nhiên, bạn vẫn có thể làm được điều đó bằng cách sử dụng FormBuilder với `form_with` ví dụ:
 ```
 <%= form_with model: @post do |form| %>
- <%= form.text_field :author %>
- <%= form.check_box :notify_readers %>
- <%= form.submit “Create” %>
+  <%= form.text_field :author %>
+  <%= form.check_box :notify_readers %>
+  <%= form.submit “Create” %>
 <% end %>
 
 <form action=”/posts” accept-charset=”UTF-8" data-remote=”true” method=”post”>
- <input name=”utf8" type=”hidden” value=”✓”>
- <input type=”hidden” name=”authenticity_token” value=”…”>
- <input type=”text” name=”post[author]”>
- <input name=”post[notify_readers]” type=”hidden” value=”0"><input type=”checkbox” value=”1" name=”post[notify_readers]”>
- <input type=”submit” name=”commit” value=”Create” data-disable-with=”Create”>
+  <input name=”utf8" type=”hidden” value=”✓”>
+  <input type=”hidden” name=”authenticity_token” value=”…”>
+  <input type=”text” name=”post[author]”>
+  <input name=”post[notify_readers]” type=”hidden” value=”0"><input type=”checkbox” value=”1" name=”post[notify_readers]”>
+  <input type=”submit” name=”commit” value=”Create” data-disable-with=”Create”>
 </form>
 ```
 
