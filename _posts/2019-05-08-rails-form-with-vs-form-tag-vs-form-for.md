@@ -7,7 +7,7 @@ keywords: "rails, form_for, form_with, form_tag"
 ---
 
 ## Giới thiệu
-`form_tag` và `form_for` sẽ được sớm thay bằng `form_with` trong tương lai. Trong bài này chúng ta sẽ cùng tìm hiểu sự khác nhau giữa `form_tag`, `form_for` và `form_with` và một số code ví dụ.
+`form_tag` và `form_for` sẽ được sớm thay bằng `form_with` trong tương lai. Trong bài này chúng ta sẽ cùng tìm hiểu sự khác nhau giữa `form_tag`, `form_for`, `form_with` và một số code ví dụ.
 
 ## Một cú pháp cho tất cả
 Trước đây, khi bạn muốn tạo một form nhưng không có một model cho nó, bạn sẽ sử dụng `form_tag`.
