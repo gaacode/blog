@@ -79,7 +79,8 @@ Tạo ra:
 <form action="/users" ...>
   ...
   <input type="text" name="user[name]" />
-  <input id="email" class="email" type="text" name="user[email]" />  </form>
+  <input id="email" class="email" type="text" name="user[email]"/>
+</form>
 ```
 
 ## Các thuộc tính id và class của form không được bọc nữa
