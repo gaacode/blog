@@ -40,7 +40,7 @@ Nó đến từ tiếng Latin, *diphthongus* có nghĩa là "two sounds (2 âm t
 
 Xem thêm video dưới đây để học cách sử dụng **IPA**. Nó cũng là một review nhanh về các âm thanh mà chúng ta sẽ học sau đó.
 
-[![IPA Video](https://benative.vn/uploads/tin-tuc/2018_07/bang-phien-am-tieng-anh-ipa.jpg)](https://www.youtube.com/watch?v=cJG0uErf8WY)
+[IPA và các âm thanh trong Tiếng Anh](https://www.youtube.com/watch?v=cJG0uErf8WY)
 
 Bạn đã đọc những lời giải thích và xem videos rồi phải không? Tuyệt vời.
 
