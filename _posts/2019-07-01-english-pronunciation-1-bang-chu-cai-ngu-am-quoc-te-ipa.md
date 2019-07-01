@@ -23,17 +23,17 @@ Hệ thống các ký hiệu được gọi là International Phonetic Alphabet 
 ### 2.1. Phonetic (ngữ âm)
 Ngữ âm có nghĩa là "sử dụng các dấu hiệu đặc biệt để đại diện cho các âm thanh của lời nói."
 
-Nó đến từ tiếng Hy Lạp, *phone* có nghĩa là "sound (âm thanh)".
+*phone* có nghĩa là "sound (âm thanh)". - tiếng Hy Lạp
 
 ### 2.2. Vowel (nguyên âm)
 **Nguyên âm** là một âm thanh chúng ta tạo ra khi hơi thở tự do thoát ra từ miệng mà không bị chặn, các chữ cái Tiếng Anh **u, e, o, a, i** được gọi là các nguyên âm, vì chúng đại diện cho những âm thanh như vậy.
 
-Nó đến từ tiếng Latin, *vox*  có nghĩa là "voice (giọng nói)"
+*vox*  có nghĩa là "voice (giọng nói)". - tiếng Latin
 
 ### 2.3. Diphthong (nguyên âm đôi)
 **Nguyên âm đôi** là một nguyên âm được tạo ra bằng cách phát âm 2 nguyên âm nhanh chóng lần lượt từng nguyên âm. Ví dụ, nguyên âm trong từ "loud" là một nguyên âm đôi.
 
-Nó đến từ tiếng Latin, *diphthongus* có nghĩa là "two sounds (2 âm thanh)".
+*diphthongus* có nghĩa là "two sounds (2 âm thanh)". - tiếng Latin
 
 ### 2.4. Consonant (phụ âm)
 **Phụ âm** là âm thanh chúng ta tạo ra mà không phải nguyên âm. Đó là khi hơi thở bị chặn bằng cách nào đó thoát ra khỏi miệng. Ví dụ, âm B được tạo ra khi luồng hơi thở bị chặn lại bởi đôi môi. Tất cả các chữ cái Tiếng Anh không phải nguyên âm được gọi là phụ âm, đó là: **b, c, d, f, g, h, j, k, l, m, n, p, q, r, s, t, v, w, x, y, z**.
