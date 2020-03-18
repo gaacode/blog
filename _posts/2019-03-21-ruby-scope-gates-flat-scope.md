@@ -181,4 +181,4 @@ Write the code as a pleasure.
 
 <https://www.sitepoint.com/understanding-scope-in-ruby/>
 
-
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](YOUR_EMAIL_CODE)
