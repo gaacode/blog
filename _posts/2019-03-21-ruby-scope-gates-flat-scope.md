@@ -180,5 +180,3 @@ Write the code as a pleasure.
 <http://rubyblog.pro/2017/02/scope-gates-and-flat-scope-ruby>
 
 <https://www.sitepoint.com/understanding-scope-in-ruby/>
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](babyface_lth@yahoo.com.vn)
