@@ -7,7 +7,14 @@ published: true
   {% include head.html %}
   <body>
     <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
+      <div id="fb-root">
+        <main class="wrapper">
+          {% include header.html %}
+          {{ content }}
+          {% include footer.html %}
+        </main>
+        {% include foot.html %}
+      </div>
       <script>
         window.fbAsyncInit = function() {
           FB.init({
@@ -32,11 +39,5 @@ published: true
   logged_out_greeting="Hê lô! Bạn có cần mình giúp gì không?">
       </div>
     
-    <main class="wrapper">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
-    </main>
-    {% include foot.html %}
   </body>
 </html>
