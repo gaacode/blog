@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Thông tin và liên hệ
+title: Thông tin về Gàcode
 permalink: /about/
 ---
 
