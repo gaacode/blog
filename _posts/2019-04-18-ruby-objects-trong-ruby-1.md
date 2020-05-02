@@ -3,6 +3,7 @@ layout: post
 title: "[Ruby] Objects trong Ruby #1"
 description: "Ruby là một ngôn ngữ hướng đối tượng thuần túy, bởi vậy tất cả các giá trị (values) đều là objects và không có sự phân biệt giữa kiểu nguyên thủy (primitive types) và kiểu objects như trong nhiều ngôn ngữ lập trình khác..."
 comments: true
+categories: [ruby, rails]
 keywords: "Ruby, Object"
 ---
 
