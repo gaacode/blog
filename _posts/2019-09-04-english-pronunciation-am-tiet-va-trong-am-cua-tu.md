@@ -3,6 +3,7 @@ layout: post
 title: "[English Pronunciation #2] Âm tiết và trọng âm của từ"
 description: "Trọng âm của từ và các âm tiết là những điều quan trọng tiếp theo để học về phát âm và giọng Anh. Một âm tiết là một từ hoặc một phần của một từ, trong đó có chứa một âm thanh của nguyên âm đơn. Nó là một đơn vị của lời nói. Mỗi từ sẽ có 1 hoặc nhiều âm tiết..."
 comments: true
+categories: [english]
 keywords: "english, pronunciation, syllable, word stress"
 ---
 
