@@ -4,13 +4,21 @@
     <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title_left }}<span>{{ site.title_right }}</span></a></h1>
     <ul class="navbar">
       
-      <li>
+<!--       <li>
         <a href="{{ '/tieng-anh' | prepend: site.baseurl | prepend: site.url }}">
           Tiếng anh
         </a>
       </li>
       
-      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">Giới thiệu</a></li>
+      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">Giới thiệu</a></li> -->
+      
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danh mục</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="{{ '/tieng-anh' | prepend: site.baseurl | prepend: site.url }}">Tiếng anh</a>
+          <a class="dropdown-item" href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">Giới thiệu</a>
+          </div>
+      </li>
      
       <li><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" target="_blank">RSS</a></li>
     </ul>
