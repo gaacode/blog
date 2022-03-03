@@ -3,6 +3,7 @@ layout: post
 title: "[English Pronunciation #1] Bảng chữ cái ngữ âm quốc tế (IPA)"
 description: "International Phonetic Alphabet (bảng chữ cái ngữ âm quốc tế), viết tắt là IPA sẽ giúp bạn phát âm chính xác từng từ trong tiếng Anh! Nhưng trước tiên, bạn cần tìm hiểu nó là gì..."
 comments: true
+published: false
 categories: [english]
 keywords: "english, pronunciation, ipa"
 ---
