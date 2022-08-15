@@ -9,7 +9,7 @@ keywords: "Rails, scope, active record"
 
 ActiveRecord scopes được sử dụng rất thường xuyên trong các ứng dụng Rails. Nó thêm 1 class method để truy xuất và truy vấn các objects.
 
-Có một hành vi bất thường nhưng được mong đợi của scope, hãy xem điều đó qua ví dụ.
+Có một hành vi bất thường nhưng được mong đợi của scope, hãy xem điều đó qua ví dụ phía dưới.
 
 Giả sử chúng ta cần tìm bài viết được xuất bản gần đây, scope sẽ trông như sau.
 
@@ -22,21 +22,19 @@ end
 Và hiện tại trong bảng Post, chúng ta không có bài viết nào với ```published: true```. Hãy xem rails console 
 
 ```
-2.6.0 :001 > Post.recent_published
-  Post Load (0.3ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."published" = ? ORDER BY published_at DESC LIMIT ?  [["published", 1], ["LIMIT", 1]]
-  Post Load (0.1ms)  SELECT  "posts".* FROM "posts" LIMIT ?  [["LIMIT", 11]]
- => #<ActiveRecord::Relation [#<Post id: 1, published: false, published_at: "2019-09-14 07:32:24", created_at: "2019-09-14 07:32:24", updated_at: "2019-09-14 07:32:24">, #<Post id: 2, published: false, published_at: "2019-09-14 07:32:27", created_at: "2019-09-14 07:32:27", updated_at: "2019-09-14 07:32:27">]>
+pry(main)> Post.recent_published
+  Post Load (0.5ms)  SELECT "posts".* FROM "posts" WHERE "posts"."published" = ? ORDER BY published_at DESC LIMIT ?  [["published", 1], ["LIMIT", 1]]
+  Post Load (0.3ms)  SELECT "posts".* FROM "posts"
+=> [#<Post:0x00007fa0445974f0  id: 6,  title: "Post {i}",  published_at: Mon, 25 Nov 2019 22:21:28 UTC +00:00,  published: false,  created_at: Mon, 15 Aug 2022 15:31:52 UTC +00:00,  updated_at: Mon, 15 Aug 2022 15:31:52 UTC +00:00>, #<Post:0x00007fa044597360  id: 7,  title: "Post {i}",  published_at: Fri, 30 Jan 2015 19:24:51 UTC +00:00,  published: false,  created_at: Mon, 15 Aug 2022 15:31:52 UTC +00:00,  updated_at: Mon, 15 Aug 2022 15:31:52 UTC +00:00>, #<Post:0x00007fa0445971d0  id: 8,  title: "Post {i}",  published_at: Mon, 29 Jan 2018 09:54:03 UTC +00:00,  published: false,  created_at: Mon, 15 Aug 2022 15:31:52 UTC +00:00,  updated_at: Mon, 15 Aug 2022 15:31:52 UTC +00:00>]
 ```
-
-
 
 ## Đây rồi!!!
 
 Bạn hẳn đang mong đợi [], nhưng bạn đã nhận được 1 số kết quả. Hãy xem truy vấn.
 
 ```
-Post Load (0.3ms)  SELECT  "posts".* FROM "posts" WHERE "posts"."published" = ? ORDER BY published_at DESC LIMIT ?  [["published", 1], ["LIMIT", 1]]
-Post Load (0.1ms)  SELECT  "posts".* FROM "posts" LIMIT ?  [["LIMIT", 11]]
+Post Load (0.5ms)  SELECT "posts".* FROM "posts" WHERE "posts"."published" = ? ORDER BY published_at DESC LIMIT ?  [["published", 1], ["LIMIT", 1]]
+Post Load (0.3ms)  SELECT "posts".* FROM "posts"
 ```
 
 Truy vấn đầu tiên trả về nil và do đó truy vấn thứ 2 được thực thi: truy vấn tất cả dữ liệu từ bảng Post.
