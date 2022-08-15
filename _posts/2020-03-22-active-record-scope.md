@@ -112,13 +112,13 @@ end
 Bên trên, ```find_nth_with_limit(index, 1)``` trả về mảng trống: ```[]```
 Và ```find_nth_with_limit(index, 1).first``` tương đương ```[].first``` và trả về nil.
 
-Trong trường hợp ```limit``` method, nó trả về object là ActiveRecord::Relation và có thể nối được với các scope khác (chainable).
+Trong trường hợp ```limit``` method, nó trả về object là ActiveRecord::Relation và có thể kết hợp được với các scope khác (chainable).
 
 ## Tóm tắt
 
-Điều rất quan trọng cần lưu ý rằng, scope nhằm trả về một ActiveRecord :: Relation object mà có thể kết hợp với các scope khác. Nói ngắn gọn, scope phải nối được với các scope khác.
+Điều rất quan trọng cần lưu ý rằng, scope nhằm trả về một ActiveRecord::Relation object mà có thể kết hợp với các scope khác. Nói ngắn gọn, scope phải kết hợp được với các scope khác.
 
-Sử dụng class method thay vì phạm vi khi đối tượng trả về có thể là nil, false. Hoặc không phải ```<ActiveRecord :: Relation []>``` như Array, Hash, v.v.
+Sử dụng class method thay vì scope khi object được trả về có thể là nil hoặc false. Hoặc không phải ```<ActiveRecord :: Relation []>``` như Array, Hash, v.v.
 
 ## Tài liệu tham khảo
 
