@@ -88,7 +88,7 @@ scope :recent_published, -> { where(published: true).order('published_at DESC').
 
 ```limit``` trả về ActiveRecord::Relation còn ```first``` trả về phần tử đầu tiên hoặc nil.
 
-### Chi tiết hơn 1 ch
+### Chi tiết hơn 1 chút
 
 Kiểm tra cách hoạt động của điều kiện ```||``` trong ruby với ```nil``` và ```[]```
 
