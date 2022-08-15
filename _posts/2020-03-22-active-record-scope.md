@@ -84,11 +84,11 @@ scope :recent_published, -> { where(published: true).order('published_at DESC').
 ```
 ## Làm thế nào / tại sao ```limit``` hoạt động, còn ```first``` thì không?
 
-### Câu trả lời ngắn
+### Câu trả lời nhanh
 
-```limit``` trả về ActiveRecord::Relation còn first trả về phần tử đầu tiên hoặc nil.
+```limit``` trả về ActiveRecord::Relation còn ```first``` trả về phần tử đầu tiên hoặc nil.
 
-### Câu trả lời dài
+### Chi tiết hơn 1 ch
 
 Kiểm tra cách hoạt động của điều kiện ```||``` trong ruby với ```nil``` và ```[]```
 
