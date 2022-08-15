@@ -123,4 +123,5 @@ Sử dụng class method thay vì phạm vi khi đối tượng trả về có t
 ## Tài liệu tham khảo
 
 [https://github.com/rails/rails/issues/21882](https://github.com/rails/rails/issues/21882)
+
 [https://sagarjunnarkar.github.io/blogs/2019/09/15/activerecord-scope/](https://sagarjunnarkar.github.io/blogs/2019/09/15/activerecord-scope/)
