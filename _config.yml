@@ -41,5 +41,9 @@ navbar:
     title: About
   - slug : articles
     title: Articles
+  - slug : cung
+    title: Cung
+  - slug : cau
+    title: Cau
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
