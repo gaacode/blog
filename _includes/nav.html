@@ -13,11 +13,21 @@
       <!-- <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">Giới thiệu</a></li> -->     
       
       <!-- <li><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" target="_blank">RSS</a></li> -->          
-
+<!--     
       <li><a href="{{ '/cung' | prepend: site.baseurl | prepend: site.url }}">Bên cung cấp</a></li>
-      <li><a href="{{ '/cau' | prepend: site.baseurl | prepend: site.url }}">Bên cần cứu trợ</a></li>
+      <li><a href="{{ '/cau' | prepend: site.baseurl | prepend: site.url }}">Bên cần cứu trợ</a></li> -->
 
-      
+      <form action="{{ '/cung' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- HTML !-->
+<button class="button-21" role="button">Bên cung cấp</button>
+
+</form>
+
+      <form action="{{ '/cau' | prepend: site.baseurl | prepend: site.url }}">
+    <!-- HTML !-->
+<button class="button-21" role="button">Bên cần cứu trợ</button>      
+
+</form>
       
     </ul>
   </div>
