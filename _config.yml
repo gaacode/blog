@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "X"
 title_right   : "-Connect" # default: ""
-description   : "Đoàn kết và hỗ trợ"   
+description   : "Hành trình kết nối những trái tim ♥♥♥"   
 keywords      : "kết nối, lan tỏa, hỗ trợ, xây dựng Việt Nam"   
 url           : https://gaacode.github.io/blog # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
