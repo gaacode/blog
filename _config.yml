@@ -1,8 +1,8 @@
 # Site settings
 title_left    : "X"
 title_right   : "-Connect" # default: ""
-description   : "Web development with Ruby on Rails, life."
-keywords      : "Web development, Ruby on Rails, life, code, blog"
+description   : "Đoàn kết và hỗ trợ"   
+keywords      : "kết nối, lan tỏa, hỗ trợ, xây dựng Việt Nam"   
 url           : https://gaacode.github.io/blog # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
